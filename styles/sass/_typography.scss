@@ -1,1 +1,11 @@
 @use "variables" as*;
+
+body {
+   font-family: $primary-font;
+   font-size: 125%;
+   color: $clr-white-off;
+}
+
+h1, h2, h3, button, a {
+   font-family: $secondary-font;
+}

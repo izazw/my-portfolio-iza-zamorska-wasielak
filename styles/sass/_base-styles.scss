@@ -1,1 +1,17 @@
 @use "variables" as*;
+
+body {
+   background-color: $clr-white-off;
+}
+
+.wrapper {
+   width: 90%;
+   margin: 0 auto;
+   max-width: 1024px;
+}
+
+ul {
+   margin: 0;
+   list-style-position: inside;
+   padding: 0;
+}

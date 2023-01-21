@@ -1,4 +1,12 @@
 @use "variables" as*;
 body {
-   background-color: lightblue;
+   background-color: $clr-white-off;
+}
+
+.skills {
+   background-color: $clr-base-dk;
+}
+
+.contact {
+   background-color: $clr-base-lt;
 }
