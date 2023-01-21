@@ -249,11 +249,23 @@ body {
 ul {
   margin: 0;
   list-style-position: inside;
+  list-style-type: none;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
   background-color: #454d66;
+  height: 50vh;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body {
