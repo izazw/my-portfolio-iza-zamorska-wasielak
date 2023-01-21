@@ -24,6 +24,11 @@ ul {
 }
 
 a {
-   text-decoration: none;
-   
+   text-decoration: none;   
+}
+
+button {
+   padding: 15px 35px;
+   background-color: $clr-accent;
+   border: none;
 }

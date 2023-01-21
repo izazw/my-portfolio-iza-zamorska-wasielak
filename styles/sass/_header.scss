@@ -15,4 +15,21 @@ nav {
    }
 }
 
+.header-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 90%;
+   h1 {
+      margin: 10px;
+   }
+   p {
+      margin: 10px
+   }
+   button {
+      margin: 10px;
+   }
+}
+
 

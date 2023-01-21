@@ -278,6 +278,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 15px 35px;
+  background-color: #dc4988;
+  border: none;
+}
+
 header {
   background-color: #454d66;
   height: 50vh;
@@ -298,6 +304,32 @@ nav ul {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+}
+.header-container h1 {
+  margin: 10px;
+}
+.header-container p {
+  margin: 10px;
+}
+.header-container button {
+  margin: 10px;
 }
 
 body {
