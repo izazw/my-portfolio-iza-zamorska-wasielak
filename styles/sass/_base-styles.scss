@@ -2,13 +2,19 @@
 
 body {
    background-color: $clr-white-off;
+   margin: 0 auto;
 }
 
-.wrapper {
-   width: 90%;
+.wrapper-wide {
+   width: 80%;
    margin: 0 auto;
    max-width: 1024px;
 }
+
+.wrapper-narrow {
+   width: 60%;
+}
+
 
 ul {
    margin: 0;

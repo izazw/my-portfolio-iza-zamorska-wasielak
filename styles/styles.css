@@ -226,7 +226,7 @@ html {
   overflow: hidden;
 }
 
-body {
+html {
   font-family: "Lora", serif;
   font-size: 125%;
   color: #f6f6f6;
@@ -236,14 +236,35 @@ h1, h2, h3, button, a {
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-color: #f6f6f6;
+h1 {
+  font-size: 2.5rem;
 }
 
-.wrapper {
-  width: 90%;
+a, button {
+  font-size: 0.9rem;
+}
+
+.header-p {
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: #f6f6f6;
+}
+
+body {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+}
+
+.wrapper-wide {
+  width: 80%;
   margin: 0 auto;
   max-width: 1024px;
+}
+
+.wrapper-narrow {
+  width: 60%;
 }
 
 ul {
@@ -262,10 +283,21 @@ header {
   height: 50vh;
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body {
