@@ -227,5 +227,47 @@ html {
 }
 
 body {
-  background-color: lightblue;
+  font-family: "Lora", serif;
+  font-size: 125%;
+  color: #f6f6f6;
+}
+
+h1, h2, h3, button, a {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+ul {
+  margin: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+
+header {
+  background-color: #454d66;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.skills {
+  background-color: #309975;
+}
+
+.contact {
+  background-color: #58b368;
+}
+
+footer {
+  background-color: #309975;
 }
