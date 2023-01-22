@@ -236,7 +236,7 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, button, a {
+h1, h2, h3, button, a, .skill-p {
   font-family: "Roboto", sans-serif;
   line-height: 1.1;
 }
@@ -270,6 +270,11 @@ section.skills i {
   font-size: 4rem;
 }
 
+.skill-p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
 body {
   background-color: #f6f6f6;
   margin: 0 auto;
@@ -283,6 +288,10 @@ body {
 
 .wrapper-narrow {
   width: 60%;
+}
+
+.wrapper-very-narrow {
+  width: 45%;
 }
 
 ul {
@@ -435,8 +444,29 @@ img.portrait {
           justify-content: center;
   margin-top: 30px;
 }
-.skills ul li i {
+
+div .icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px;
+}
+div .icon-container p {
+  display: inline-block;
+}
+div .icon-container i {
+  display: inline-block;
+  margin: 5px;
 }
 
 .contact {

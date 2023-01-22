@@ -10,7 +10,7 @@ body {
    line-height: 1.6;
 }
 
-h1, h2, h3, button, a {
+h1, h2, h3, button, a, .skill-p {
    font-family: $secondary-font;
    line-height: 1.1;
 }
@@ -42,4 +42,9 @@ nav a {
 
 section.skills i {
    font-size: 4rem;
+}
+
+.skill-p {
+ text-transform: uppercase;
+ font-size: 0.9rem;
 }

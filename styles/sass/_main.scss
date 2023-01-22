@@ -27,7 +27,7 @@ img.portrait {
    }
    
 
-//skills section
+// skills section
 .skills {
    background-color: $clr-base-dk;
    padding: 80px 0;
@@ -45,17 +45,26 @@ img.portrait {
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 30px;
-      li i {
-         margin: 20px;
-      }
    }
-
-
 }
+
+div .icon-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+   
+   p {
+      display: inline-block;
+   }
+   i {
+      display: inline-block;
+      margin: 5px;
+      }
+}
+
 
 .contact {
    background-color: $clr-base-lt;
 }
-
-
-
