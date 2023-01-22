@@ -3,6 +3,19 @@ body {
    background-color: $clr-white-off;
 }
 
+.about-me {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 80px 0;
+}
+
 .skills {
    background-color: $clr-base-dk;
 }
@@ -10,3 +23,12 @@ body {
 .contact {
    background-color: $clr-base-lt;
 }
+
+img.portrait {
+border-radius: 50%;
+margin-top: 20px;
+margin-bottom: 10px;
+height: 130px;
+width: auto;
+}
+
