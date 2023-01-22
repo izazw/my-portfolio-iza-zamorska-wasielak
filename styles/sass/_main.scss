@@ -3,6 +3,8 @@ body {
    background-color: $clr-white-off;
 }
 
+// about-me section
+
 .about-me {
    display: flex;
    justify-content: center;
@@ -16,6 +18,16 @@ body {
    margin: 80px 0;
 }
 
+img.portrait {
+   border-radius: 50%;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   height: 130px;
+   width: auto;
+   }
+   
+
+//skills section
 .skills {
    background-color: $clr-base-dk;
 }
@@ -24,11 +36,5 @@ body {
    background-color: $clr-base-lt;
 }
 
-img.portrait {
-border-radius: 50%;
-margin-top: 20px;
-margin-bottom: 10px;
-height: 130px;
-width: auto;
-}
+
 
