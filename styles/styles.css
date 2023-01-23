@@ -262,7 +262,7 @@ nav a {
   color: #f6f6f6;
 }
 
-.about-me {
+.about-me, .projects {
   color: #14070E;
 }
 
@@ -467,6 +467,42 @@ div .icon-container p {
 div .icon-container i {
   display: inline-block;
   margin: 5px;
+}
+
+.projects {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.projects h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.projects .all-projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.projects .all-projects-container .project-container {
+  background-color: #FFFFFF;
+  width: calc(50% - 20px);
+  max-width: 380px;
+  margin-bottom: 40px;
+}
+.projects .all-projects-container .project-container .photo-container {
+  max-height: 200px;
+  height: 200px;
+  width: auto;
+}
+.projects .all-projects-container .project-container .photo-container img {
+  width: auto;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contact {
