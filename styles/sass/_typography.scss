@@ -6,12 +6,17 @@ html {
    color: $clr-white-off;
 }
 
-h1, h2, h3, button, a {
+body {
+   line-height: 1.6;
+}
+
+h1, h2, h3, button, a, .skill-p {
    font-family: $secondary-font;
+   line-height: 1.1;
 }
 
 h1 {
-   font-size: 2.5rem;
+   font-size: 3rem;
 }
 
 h2 {
@@ -31,7 +36,15 @@ nav a {
    color: $clr-white-off;
 }
 
-.about-me {
+.about-me, .projects {
    color: $clr-black;
-   line-height: 1.5rem;
+}
+
+section.skills i {
+   font-size: 4rem;
+}
+
+.skill-p {
+ text-transform: uppercase;
+ font-size: 0.9rem;
 }

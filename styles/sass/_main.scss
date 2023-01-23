@@ -27,14 +27,78 @@ img.portrait {
    }
    
 
-//skills section
+// skills section
 .skills {
    background-color: $clr-base-dk;
+   padding: 80px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   .skills-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   } 
+   ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+   }
+}
+
+div .icon-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+   
+   p {
+      display: inline-block;
+   }
+   i {
+      display: inline-block;
+      margin: 5px;
+      }
+}
+
+// projects section
+
+.projects {
+   margin-top: 100px;
+   margin-bottom: 60px;
+   h2 {
+      text-align: center;
+      margin-bottom: 50px;
+   }
+   .all-projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .project-container {
+         background-color: $clr-white;
+         width: calc(50% - 20px);
+         max-width: 380px;
+         margin-bottom: 40px;
+         .photo-container {
+            max-height: 200px;
+            height: 200px;
+            width: auto;
+            img {
+               width: auto;
+               height: 100%;
+               object-fit: cover;
+            }
+         }
+         
+      }
+   }
+
 }
 
 .contact {
    background-color: $clr-base-lt;
 }
-
-
-
