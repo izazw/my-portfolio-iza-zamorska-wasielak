@@ -41,6 +41,7 @@ img.portrait {
       align-items: center;
    } 
    ul {
+      width: 50%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -51,7 +52,7 @@ img.portrait {
 div .icon-container {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    margin: 20px;
    
@@ -73,30 +74,41 @@ div .icon-container {
       text-align: center;
       margin-bottom: 50px;
    }
-   .all-projects-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+}
 
-      .project-container {
-         background-color: $clr-white;
-         width: calc(50% - 20px);
-         max-width: 380px;
-         margin-bottom: 40px;
-         .photo-container {
-            max-height: 200px;
-            height: 200px;
+.all-projects-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+   .project-container {
+      background-color: $clr-white;
+      width: calc(50% - 20px);
+      max-width: 380px;
+      margin-bottom: 40px;
+      .photo-container {
+         max-height: 200px;
+         height: 200px;
+         width: auto;
+         img {
             width: auto;
-            img {
-               width: auto;
-               height: 100%;
-               object-fit: cover;
-            }
+            height: 100%;
+            object-fit: cover;
          }
-         
       }
+      .text-container {
+         .project-button {
+            margin-right: 5px;
+         }
+         h3 {
+            margin-bottom: 5px;
+         }
+         h4 {
+            margin: 5px 0;
+         }
+      }
+      
    }
-
 }
 
 .contact {

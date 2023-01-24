@@ -31,8 +31,8 @@ a {
    text-decoration: none;   
 }
 
-button {
-   padding: 15px 35px;
+button, .project-button {
+   padding: 12px 35px;
    background-color: $clr-accent;
    border: none;
 }

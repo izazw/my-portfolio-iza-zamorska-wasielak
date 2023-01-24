@@ -250,6 +250,16 @@ h2 {
   margin: 10px 0;
 }
 
+h3 {
+  font-size: 1.5;
+}
+
+h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #454d66;
+}
+
 a, button {
   font-size: 0.9rem;
 }
@@ -305,8 +315,8 @@ a {
   text-decoration: none;
 }
 
-button {
-  padding: 15px 35px;
+button, .project-button {
+  padding: 12px 35px;
   background-color: #dc4988;
   border: none;
 }
@@ -317,7 +327,7 @@ p {
 
 header {
   background-color: #454d66;
-  height: 50vh;
+  height: 100vh;
 }
 
 nav {
@@ -434,6 +444,7 @@ img.portrait {
           align-items: center;
 }
 .skills ul {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,9 +464,9 @@ div .icon-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -477,7 +488,8 @@ div .icon-container i {
   text-align: center;
   margin-bottom: 50px;
 }
-.projects .all-projects-container {
+
+.all-projects-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -487,22 +499,31 @@ div .icon-container i {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.projects .all-projects-container .project-container {
+.all-projects-container .project-container {
   background-color: #FFFFFF;
   width: calc(50% - 20px);
   max-width: 380px;
   margin-bottom: 40px;
 }
-.projects .all-projects-container .project-container .photo-container {
+.all-projects-container .project-container .photo-container {
   max-height: 200px;
   height: 200px;
   width: auto;
 }
-.projects .all-projects-container .project-container .photo-container img {
+.all-projects-container .project-container .photo-container img {
   width: auto;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.all-projects-container .project-container .text-container .project-button {
+  margin-right: 5px;
+}
+.all-projects-container .project-container .text-container h3 {
+  margin-bottom: 5px;
+}
+.all-projects-container .project-container .text-container h4 {
+  margin: 5px 0;
 }
 
 .contact {
