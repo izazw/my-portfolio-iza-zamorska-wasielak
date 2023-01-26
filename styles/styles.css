@@ -444,7 +444,7 @@ img.portrait {
           align-items: center;
 }
 .skills ul {
-  width: 50%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -495,15 +495,18 @@ div .icon-container i {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .all-projects-container .project-container {
   background-color: #FFFFFF;
   width: calc(50% - 20px);
   max-width: 380px;
   margin-bottom: 40px;
+  position: relative;
+  height: 650px;
+  -webkit-box-shadow: 20px 20px #309975;
+          box-shadow: 20px 20px #309975;
 }
 .all-projects-container .project-container .photo-container {
   max-height: 200px;
@@ -515,6 +518,26 @@ div .icon-container i {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.all-projects-container .project-container .text-container {
+  margin: 40px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.all-projects-container .project-container .text-container p {
+  margin: 10px 0;
+}
+.all-projects-container .project-container .text-container .links-container {
+  position: absolute;
+  bottom: 40px;
 }
 .all-projects-container .project-container .text-container .project-button {
   margin-right: 5px;
