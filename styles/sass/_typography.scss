@@ -56,6 +56,9 @@ h4 {
 
 a, button  {
    font-size: 0.9rem;
+   &:visited {
+      color: $clr-black;
+   }
    @media (max-width: 900px) {
       font-size: 0.7rem;
    }
