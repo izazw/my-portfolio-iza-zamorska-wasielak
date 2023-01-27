@@ -294,6 +294,9 @@ h4 {
 a, button {
   font-size: 0.9rem;
 }
+a:visited, button:visited {
+  color: #14070E;
+}
 @media (max-width: 900px) {
   a, button {
     font-size: 0.7rem;
