@@ -180,6 +180,9 @@ div .icon-container {
       p {
          width: 60%;
          margin-bottom: 40px;
+         @media (max-width: 900px) {
+            width: 100%;
+         }
       }
       @media (max-width: 900px) {
          padding: 40px 0;;
