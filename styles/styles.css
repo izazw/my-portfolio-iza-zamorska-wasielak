@@ -566,14 +566,6 @@ img.portrait {
           justify-content: center;
   margin-top: 30px;
 }
-@media (max-width: 470px) {
-  .skills ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
 
 div .icon-container {
   display: -webkit-box;
