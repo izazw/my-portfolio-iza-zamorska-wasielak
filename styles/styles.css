@@ -294,9 +294,6 @@ h4 {
 a, button {
   font-size: 0.9rem;
 }
-a:visited, button:visited {
-  color: #14070E;
-}
 @media (max-width: 900px) {
   a, button {
     font-size: 0.7rem;
@@ -310,6 +307,10 @@ a:visited, button:visited {
   .header-p {
     font-size: 1rem;
   }
+}
+
+.header-container button:visited {
+  color: #14070E;
 }
 
 nav a {
@@ -366,6 +367,9 @@ section.skills i {
   .contact p {
     font-size: 0.8rem;
   }
+}
+.contact button:visited {
+  color: #14070E;
 }
 
 footer p {
@@ -449,6 +453,12 @@ nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+nav ul li {
+  color: #f6f6f6;
+}
+nav ul li:visited {
+  color: #FFFFFF;
 }
 
 .header-container {

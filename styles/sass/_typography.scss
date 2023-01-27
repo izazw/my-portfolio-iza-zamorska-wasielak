@@ -56,9 +56,6 @@ h4 {
 
 a, button  {
    font-size: 0.9rem;
-   &:visited {
-      color: $clr-black;
-   }
    @media (max-width: 900px) {
       font-size: 0.7rem;
    }
@@ -70,6 +67,15 @@ font-size: 1.2rem;
    font-size: 1rem;
    }
 }
+
+.header-container {
+   button {
+      &:visited {
+         color: $clr-black;
+      }
+   }
+}
+
 
 nav a {
    color: $clr-white-off;
@@ -123,7 +129,11 @@ margin-top: 0;
          font-size: 0.8rem;
       }
    }
-
+   button {
+      &:visited {
+         color: $clr-black;
+      }
+   }
 }
 
 footer {

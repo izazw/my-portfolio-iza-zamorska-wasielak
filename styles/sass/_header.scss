@@ -12,6 +12,12 @@ nav {
    ul {
       display: flex;
       justify-content: space-between; 
+      li {
+         color: $clr-white-off;
+         &:visited {
+            color: $clr-white;
+         }
+      }
    }
 }
 
