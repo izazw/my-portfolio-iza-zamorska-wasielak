@@ -738,6 +738,11 @@ div .icon-container i {
   margin-bottom: 40px;
 }
 @media (max-width: 900px) {
+  .contact .contact-container p {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
   .contact .contact-container {
     padding: 40px 0;
   }
