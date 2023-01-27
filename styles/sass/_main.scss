@@ -52,9 +52,9 @@ img.portrait {
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 30px;
-      // @media (max-width: 470px) {
-      //    flex-direction: column;
-      // }
+      @media (max-width: 470px) {
+         flex-direction: column;
+      }
    }
 }
 
@@ -64,6 +64,9 @@ div .icon-container {
    justify-content: space-between;
    align-items: center;
    margin: 20px;
+   @media (max-width: 470px) {
+      margin: 5px;
+   }
    
    p {
       display: inline-block;
