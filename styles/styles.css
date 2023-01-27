@@ -726,6 +726,11 @@ div .icon-container i {
       -ms-flex-align: center;
           align-items: center;
   padding: 80px 0;
+  text-align: center;
+}
+.contact .contact-container p {
+  width: 60%;
+  margin-bottom: 40px;
 }
 @media (max-width: 900px) {
   .contact .contact-container {
