@@ -31,7 +31,7 @@ h3 {
 h4 {
    font-size: 0.8rem;
    text-transform: uppercase;
-   color: $clr-accent-header;
+   color: $clr-base-dk;
 }
 
 a, button  {
@@ -59,3 +59,25 @@ section.skills i {
  font-size: 0.9rem;
 }
 
+
+.contact {
+   i {
+      color: $clr-white-off;
+      font-size: 1rem;
+   } 
+   h2 {
+   color: $clr-black;
+   }
+   p {
+      color: $clr-black;
+   }
+
+}
+
+footer {
+   p {
+      font-family: $primary-font;
+      font-size: 0.8rem;
+      font-weight: lighter;
+   }
+}
