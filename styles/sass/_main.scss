@@ -52,7 +52,7 @@ img.portrait {
       flex-wrap: wrap;
       justify-content: center;
       margin-top: 30px;
-      @media (max-width: 700px) {
+      @media (max-width: 470px) {
          flex-direction: column;;
       }
    }
