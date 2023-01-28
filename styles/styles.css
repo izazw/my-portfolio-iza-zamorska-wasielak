@@ -317,6 +317,11 @@ nav a {
   color: #f6f6f6;
 }
 
+nav i {
+  font-size: 1.2rem;
+  color: #f6f6f6;
+}
+
 .about-me, .projects {
   color: #14070E;
 }
@@ -469,11 +474,35 @@ nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 600px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: 50%;
+    top: -100vh;
+  }
+}
 nav ul li {
   color: #f6f6f6;
 }
 nav ul li:visited {
   color: #FFFFFF;
+}
+nav button {
+  background-color: inherit;
+  position: absolute;
+  right: 20px;
+}
+@media (max-width: 600px) {
+  nav .mobile-nav {
+    top: 4vh;
+  }
 }
 
 .header-container {
@@ -503,7 +532,7 @@ nav ul li:visited {
   margin: 10px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
   .desktop-hidden {
     display: none;
   }
@@ -513,6 +542,10 @@ nav ul li:visited {
   .mobile-hidden {
     display: none;
   }
+}
+
+.mobile-icon-visibility {
+  display: none;
 }
 
 body {

@@ -19,15 +19,18 @@
 			<!-- navigation -->
 			<nav>
 				<div class="wrapper-very-narrow">
-					<ul class="nav-ul">
-						<li class="mobile-hidden"><a href="#">Home</a></li>
-						<li class="mobile-hidden"><a href="#about-me">About</a></li>
-						<li class="mobile-hidden"><a href="#projects">Projects</a></li>
-						<li class="mobile-hidden"><a href="#contact">Contact</a></li>
-						<li class="desktop-hidden"><i class="fa-solid fa-xmark desktop-hidden mobile-nav-state1"></i></li>
-						<li class="desktop-hidden"><i class="fa-solid fa-bars desktop-hidden mobile-nav-state2"></i></li>
+					<ul class="nav-ul" id="nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#about-me">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
-
+					<button class="desktop-hidden mobile-icon-visibility" id="x-mark">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+					<button class="desktop-hidden" id="burger">
+						<i class="fa-solid fa-bars"></i>
+					</button>
 				</div>
 			</nav>
 			<div class="wrapper-wide header-container">
@@ -195,6 +198,6 @@
 
 	</footer>
 
-	
+<script src="./script.js"></script>
 </body>
 </html>
