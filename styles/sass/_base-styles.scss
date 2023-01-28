@@ -9,15 +9,23 @@ body {
    width: 80%;
    margin: 0 auto;
    max-width: 1024px;
-
+   @media (max-width: 600px) {
+      width: 90%;
+   } 
 }
 
 .wrapper-narrow {
    width: 60%;
+   @media (max-width: 600px) {
+      width: 90%;
+   }
 }
 
 .wrapper-very-narrow {
    width: 45%;
+   @media (max-width: 600px) {
+      width: 90%;
+   }
 }
 
 
@@ -50,4 +58,5 @@ button, .project-button {
 p {
    margin: 10px 0;
 }
+
 

@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/8e0d4d69be.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./styles/styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-	<script src="https://kit.fontawesome.com/8e0d4d69be.js" crossorigin="anonymous"></script>
-          
+	
 	<title>Iza Zamorska-Wasielak</title>
 </head>
 <body>
@@ -19,12 +19,18 @@
 			<!-- navigation -->
 			<nav>
 				<div class="wrapper-very-narrow">
-					<ul class="nav-ul">
+					<ul class="nav-ul" id="nav">
 						<li><a href="#">Home</a></li>
 						<li><a href="#about-me">About</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
+					<button class="desktop-hidden mobile-icon-visibility" id="x-mark">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+					<button class="desktop-hidden" id="burger">
+						<i class="fa-solid fa-bars"></i>
+					</button>
 				</div>
 			</nav>
 			<div class="wrapper-wide header-container">
@@ -192,6 +198,6 @@
 
 	</footer>
 
-	
+<script src="./script.js"></script>
 </body>
 </html>
