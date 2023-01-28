@@ -393,13 +393,28 @@ body {
   margin: 0 auto;
   max-width: 1024px;
 }
+@media (max-width: 600px) {
+  .wrapper-wide {
+    width: 90%;
+  }
+}
 
 .wrapper-narrow {
   width: 60%;
 }
+@media (max-width: 600px) {
+  .wrapper-narrow {
+    width: 90%;
+  }
+}
 
 .wrapper-very-narrow {
   width: 45%;
+}
+@media (max-width: 600px) {
+  .wrapper-very-narrow {
+    width: 90%;
+  }
 }
 
 ul {
@@ -486,6 +501,18 @@ nav ul li:visited {
 }
 .header-container button {
   margin: 10px;
+}
+
+@media (min-width: 600px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-hidden {
+    display: none;
+  }
 }
 
 body {
@@ -579,14 +606,6 @@ img.portrait {
           justify-content: center;
   margin-top: 30px;
 }
-@media (max-width: 470px) {
-  .skills ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
 
 div .icon-container {
   display: -webkit-box;
@@ -603,11 +622,6 @@ div .icon-container {
       -ms-flex-align: center;
           align-items: center;
   margin: 20px;
-}
-@media (max-width: 470px) {
-  div .icon-container {
-    margin: 5px;
-  }
 }
 div .icon-container p {
   display: inline-block;
@@ -750,9 +764,9 @@ div .icon-container i {
   width: 60%;
   margin-bottom: 40px;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .contact .contact-container p {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 900px) {

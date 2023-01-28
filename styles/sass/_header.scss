@@ -12,6 +12,12 @@ nav {
    ul {
       display: flex;
       justify-content: space-between; 
+      // @media (max-width: 600px) {
+      //    flex-direction: column;
+      //    align-items: flex-end;
+      //    position: absolute;
+      //    right: 10;
+      // }
       li {
          color: $clr-white-off;
          &:visited {
@@ -39,4 +45,14 @@ nav {
    }
 }
 
+.desktop-hidden {
+   @media (min-width: 600px) {
+      display: none
+   }
+}
 
+.mobile-hidden {
+   @media (max-width: 600px) {
+      display: none;
+   }
+}
