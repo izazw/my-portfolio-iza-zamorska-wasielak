@@ -106,8 +106,6 @@ div .icon-container {
       height: 600px;
       border: 1px solid $clr-white;
       min-width: 320px;
-      // box-shadow: 20px 20px $clr-base-dk;
-      //  box-shadow: 2px 2px lightgray;
       @media (max-width: 1000px) {
          height: 100%;
          margin-bottom: 20px;
@@ -119,10 +117,16 @@ div .icon-container {
       .photo-container {
          width: 100%;
          height: auto;
+         position: relative;
          img {
             width: 100%;
             height: auto;
             object-fit: cover;
+            opacity: 0.9;
+            &:hover {
+               opacity: 1;
+               transition: opacity 0.3s;
+            }
          }
       }
       .text-container {
