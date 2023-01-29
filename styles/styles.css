@@ -317,6 +317,20 @@ nav a {
   color: #f6f6f6;
 }
 
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-nav li a {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
 nav i {
   font-size: 1.2rem;
   color: #f6f6f6;
@@ -458,13 +472,13 @@ header {
 }
 
 nav {
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 30px;
 }
 nav ul {
   display: -webkit-box;
@@ -473,6 +487,9 @@ nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media (max-width: 600px) {
   nav ul {
@@ -480,12 +497,20 @@ nav ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
+    height: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: absolute;
-    left: 50%;
+    z-index: 3;
     top: -100vh;
+    -webkit-transition: top 1.5s;
+    transition: top 1.5s;
+    background-color: #454d66;
   }
 }
 nav ul li {
@@ -498,10 +523,16 @@ nav button {
   background-color: inherit;
   position: absolute;
   right: 20px;
+  z-index: 4;
 }
 @media (max-width: 600px) {
   nav .mobile-nav {
     top: 4vh;
+    background-color: #454d66;
+    -webkit-transition: top 1s;
+    transition: top 1s;
+    width: 100%;
+    height: 100%;
   }
 }
 
