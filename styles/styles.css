@@ -480,6 +480,11 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 600px) {
+  nav {
+    display: initial;
+  }
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -528,7 +533,7 @@ nav button {
 @media (max-width: 600px) {
   nav .mobile-nav {
     top: 4vh;
-    background-color: #454d66;
+    background: #454d66;
     -webkit-transition: top 1s;
     transition: top 1s;
     width: 100%;
