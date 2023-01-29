@@ -229,7 +229,7 @@ html {
 html {
   font-family: "Lora", serif;
   font-size: 125%;
-  color: #f6f6f6;
+  color: #FFFFFF;
 }
 
 body {
@@ -355,12 +355,13 @@ section.skills i {
   }
 }
 
-.skill-p {
+.skills ul p.skill-p {
   text-transform: uppercase;
   font-size: 0.9rem;
+  color: #FFFFFF;
 }
 @media (max-width: 900px) {
-  .skill-p {
+  .skills ul p.skill-p {
     font-size: 0.8rem;
   }
 }
@@ -470,7 +471,7 @@ p {
 }
 
 header {
-  background-color: #454d66;
+  background-color: #38475a;
   height: 100vh;
 }
 
@@ -518,7 +519,7 @@ nav ul {
     top: -100vh;
     -webkit-transition: top 1.5s;
     transition: top 1.5s;
-    background-color: #454d66;
+    background-color: #38475a;
   }
 }
 nav ul li {
@@ -536,7 +537,7 @@ nav button {
 @media (max-width: 600px) {
   nav .mobile-nav {
     top: 0;
-    background: #454d66;
+    background: #38475a;
     -webkit-transition: top 1s;
     transition: top 1s;
     width: 100%;
@@ -855,7 +856,7 @@ div .icon-container i {
 }
 
 footer {
-  background-color: #454d66;
+  background-color: #38475a;
   margin: 0;
   text-align: center;
 }

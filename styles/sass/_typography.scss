@@ -3,7 +3,7 @@
 html {
    font-family: $primary-font;
    font-size: 125%;
-   color: $clr-white-off;
+   color: $clr-white;
 }
 
 body {
@@ -115,9 +115,10 @@ section.skills i {
    }
 }
 
-.skill-p {
+.skills ul p.skill-p{
  text-transform: uppercase;
  font-size: 0.9rem;
+ color: $clr-white;
  @media (max-width: 900px) {
    font-size: 0.8rem;
 }
