@@ -510,7 +510,7 @@ nav ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: absolute;
+    position: fixed;
     z-index: 3;
     top: -100vh;
     -webkit-transition: top 1.5s;
@@ -532,7 +532,7 @@ nav button {
 }
 @media (max-width: 600px) {
   nav .mobile-nav {
-    top: 4vh;
+    top: 0;
     background: #454d66;
     -webkit-transition: top 1s;
     transition: top 1s;
