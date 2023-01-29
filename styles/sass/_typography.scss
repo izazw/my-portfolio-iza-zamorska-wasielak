@@ -68,7 +68,7 @@ font-size: 1.2rem;
    }
 }
 
-.header-container button {
+.header-container a {
    &:visited {
       color: $clr-black;
    }
@@ -146,7 +146,8 @@ margin-top: 0;
          font-size: 0.8rem;
       }
    }
-   button {
+   a {
+      color: $clr-black;
       &:visited {
          color: $clr-black;
       }

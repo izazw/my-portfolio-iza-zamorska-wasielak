@@ -309,7 +309,7 @@ a, button {
   }
 }
 
-.header-container button:visited {
+.header-container a:visited {
   color: #14070E;
 }
 
@@ -387,7 +387,10 @@ section.skills i {
     font-size: 0.8rem;
   }
 }
-.contact button:visited {
+.contact a {
+  color: #14070E;
+}
+.contact a:visited {
   color: #14070E;
 }
 
@@ -447,7 +450,7 @@ a {
   text-decoration: none;
 }
 
-button, .project-button {
+button, .header-container a, .project-button, .email-a {
   padding: 12px 35px;
   background-color: #d0f4de;
   border: none;
@@ -569,7 +572,7 @@ nav button {
   margin: 10px;
   text-align: center;
 }
-.header-container button {
+.header-container a {
   margin: 10px;
 }
 
