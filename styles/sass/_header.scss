@@ -6,20 +6,26 @@ header {
 }
 
 nav {
+   padding-top: 30px;
    display: flex;
    justify-content: center;
-   padding-top: 30px;
+   
    ul {
       display: flex;
       justify-content: space-between; 
+      align-items: center;
       @media (max-width: 600px) {
          flex-direction: column;
+         width: 100%;
+         height: 100%;
          align-items: center;
+         justify-content: center;
          position: absolute;
-         left: 50%;
+         z-index: 3;
          top: -100vh;
+         transition: top 1.5s;
+         background-color: $clr-accent-header;
       }
-      
       li {
          color: $clr-white-off;
          &:visited {
@@ -31,10 +37,15 @@ nav {
       background-color: inherit;
       position: absolute;
       right: 20px;
+      z-index: 4;
    }
    .mobile-nav {
       @media (max-width: 600px) {
          top: 4vh;
+         background-color: $clr-accent-header;
+         transition: top 1s;
+         width: 100%;
+         height: 100%;
       }
    }
 }

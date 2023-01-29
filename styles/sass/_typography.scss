@@ -68,11 +68,9 @@ font-size: 1.2rem;
    }
 }
 
-.header-container {
-   button {
-      &:visited {
-         color: $clr-black;
-      }
+.header-container button {
+   &:visited {
+      color: $clr-black;
    }
 }
 
@@ -81,10 +79,24 @@ nav a {
    color: $clr-white-off;
 }
 
+nav ul li a{
+   @media (max-width: 600px) {
+      font-size: 1.5rem;
+      line-height: 3rem;
+   }
+}
+.mobile-nav li a {
+   @media (max-width: 600px) {
+      font-size: 1.5rem;
+      line-height: 3rem;
+   }
+}
+
 nav i {
    font-size: 1.2rem;
    color: $clr-white-off
 }
+
 
 .about-me, .projects {
    color: $clr-black;
