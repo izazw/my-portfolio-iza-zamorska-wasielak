@@ -17,4 +17,3 @@ xMarkButton.addEventListener("click", () => {
    nav.classList.toggle("mobile-nav")
    }
 )
-
