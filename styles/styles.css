@@ -406,6 +406,10 @@ footer p {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f6f6f6;
   margin: 0 auto;
@@ -763,12 +767,19 @@ div .icon-container i {
 .all-projects-container .project-container .photo-container {
   width: 100%;
   height: auto;
+  position: relative;
 }
 .all-projects-container .project-container .photo-container img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: 0.9;
+}
+.all-projects-container .project-container .photo-container img:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 .all-projects-container .project-container .text-container {
   margin: 40px 30px;

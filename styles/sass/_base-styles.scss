@@ -1,4 +1,7 @@
 @use "variables" as*;
+html {
+   scroll-behavior: smooth;
+}
 
 body {
    background-color: $clr-white-off;
