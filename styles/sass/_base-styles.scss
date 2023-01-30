@@ -1,0 +1,64 @@
+@use "variables" as*;
+
+
+body {
+   background-color: $clr-white-off;
+   margin: 0 auto;
+}
+
+.wrapper-wide {
+   width: 80%;
+   margin: 0 auto;
+   max-width: 1024px;
+   @media (max-width: 600px) {
+      width: 90%;
+   } 
+}
+
+.wrapper-narrow {
+   width: 60%;
+   @media (max-width: 600px) {
+      width: 90%;
+   }
+}
+
+.wrapper-very-narrow {
+   width: 45%;
+   @media (max-width: 600px) {
+      width: 90%;
+   }
+}
+
+
+ul {
+   margin: 0;
+   list-style-position: inside;
+   list-style-type: none;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+button, .header-container a, .project-button, .email-a {
+   padding: 12px 35px;
+   background-color: $clr-accent;
+   border: none;
+}
+
+
+.project-button {
+   @media (max-width: 1000px) {
+      width: 150px;
+      padding: 10px 20px;
+      text-align: center;
+      margin-top: 10px;
+   }
+}
+
+p {
+   margin: 10px 0;
+}
+
+

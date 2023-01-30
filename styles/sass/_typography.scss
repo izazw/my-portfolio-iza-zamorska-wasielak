@@ -1,0 +1,190 @@
+@use "variables" as*;
+
+html {
+   font-family: $primary-font;
+   font-size: 125%;
+   color: $clr-white;
+}
+
+body {
+   line-height: 1.6;
+}
+
+h1, h2, h3, button, a, .skill-p {
+   font-family: $secondary-font;
+   line-height: 1.1;
+}
+
+h1 {
+   font-size: 3rem;
+   text-align: center;
+   @media (max-width: 900px) {
+      font-size: 2.5rem;
+   }
+   @media (max-width: 700px) {
+      font-size: 2rem;
+   }
+
+}
+
+h2 {
+   font-size: 2rem;
+   margin: 10px 0;
+   @media (max-width: 900px) {
+      font-size: 1.5rem;
+   }
+   @media (max-width: 700px) {
+      font-size: 1.2rem;
+   }
+}
+
+h3 {
+   font-size: 1.5;
+   @media (max-width: 900px) {
+      font-size: 1.2rem;
+   }
+}
+
+h4 {
+   font-size: 0.8rem;
+   text-transform: uppercase;
+   color: $clr-base-dk;
+   @media (max-width: 900px) {
+      font-size: 0.7rem;
+   }
+}
+
+a, button  {
+   font-size: 0.9rem;
+   &:hover,
+   &:focus {
+      color: $clr-accent-lt;
+      transition: color 0.2s ease-out;
+   }
+   @media (max-width: 900px) {
+      font-size: 0.7rem;
+   }
+
+}
+
+.header-p {
+font-size: 1.2rem;
+@media (max-width: 900px) {
+   font-size: 1rem;
+   }
+}
+
+.header-container a {
+   &:visited {
+      color: $clr-black;
+   }
+   &:link {
+      color: $clr-black;
+   }
+   &:hover,
+   &:focus {
+      background-color: $clr-base-dk;
+      transition: background-color 0.3s ease;
+   }
+
+}
+
+
+nav a {
+   color: $clr-white-off;
+}
+
+nav ul li a{
+   @media (max-width: 600px) {
+      font-size: 1.5rem;
+      line-height: 3rem;
+   }
+}
+.mobile-nav li a {
+   @media (max-width: 600px) {
+      font-size: 1.5rem;
+      line-height: 3rem;
+   }
+}
+
+nav i {
+   font-size: 1.2rem;
+   color: $clr-accent;
+}
+
+
+.about-me, .projects {
+   color: $clr-black;
+}
+
+.about-me p {
+   @media (max-width: 700px) {
+      font-size: 0.8rem;
+   }
+}
+
+section.skills i {
+   font-size: 4rem;
+   @media (max-width: 900px) {
+      font-size: 2rem;
+   }
+}
+
+.skills ul p.skill-p{
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ color: $clr-white;
+ @media (max-width: 900px) {
+   font-size: 0.8rem;
+}
+}
+
+.projects {
+   p {
+      font-size: 0.8rem;
+   }
+   h3 {
+margin-top: 0;
+   }
+}
+
+.contact {
+   i {
+      color: $clr-white-off;
+      font-size: 1rem;
+   } 
+   h2 {
+   color: $clr-black;
+   }
+   p {
+      color: $clr-black;
+      @media (max-width: 700px) {
+         font-size: 0.8rem;
+      }
+   }
+   a {
+      color: $clr-black;
+      &:visited {
+         color: $clr-black;
+      }
+      &:link {
+         color: $clr-black;
+      }
+      &:hover,
+      &:focus {
+         background-color: $clr-visited;
+         transition: background-color 0.3s ease;
+      }
+   }
+}
+
+footer {
+   p {
+      font-family: $primary-font;
+      font-size: 0.8rem;
+      font-weight: lighter;
+      @media (max-width: 900px) {
+         font-size: 0.7rem;
+      }
+   }
+}
