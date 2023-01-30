@@ -56,9 +56,15 @@ h4 {
 
 a, button  {
    font-size: 0.9rem;
+   &:hover,
+   &:focus {
+      color: $clr-accent-lt;
+      transition: color 0.2s ease-out;
+   }
    @media (max-width: 900px) {
       font-size: 0.7rem;
    }
+
 }
 
 .header-p {
@@ -72,6 +78,15 @@ font-size: 1.2rem;
    &:visited {
       color: $clr-black;
    }
+   &:link {
+      color: $clr-black;
+   }
+   &:hover,
+   &:focus {
+      background-color: $clr-base-dk;
+      transition: background-color 0.3s ease;
+   }
+
 }
 
 
@@ -151,6 +166,14 @@ margin-top: 0;
       color: $clr-black;
       &:visited {
          color: $clr-black;
+      }
+      &:link {
+         color: $clr-black;
+      }
+      &:hover,
+      &:focus {
+         background-color: $clr-visited;
+         transition: background-color 0.3s ease;
       }
    }
 }

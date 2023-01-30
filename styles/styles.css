@@ -294,6 +294,11 @@ h4 {
 a, button {
   font-size: 0.9rem;
 }
+a:hover, a:focus, button:hover, button:focus {
+  color: #d0f4de;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
 @media (max-width: 900px) {
   a, button {
     font-size: 0.7rem;
@@ -311,6 +316,14 @@ a, button {
 
 .header-container a:visited {
   color: #14070E;
+}
+.header-container a:link {
+  color: #14070E;
+}
+.header-container a:hover, .header-container a:focus {
+  background-color: #309975;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 nav a {
@@ -393,6 +406,14 @@ section.skills i {
 }
 .contact a:visited {
   color: #14070E;
+}
+.contact a:link {
+  color: #14070E;
+}
+.contact a:hover, .contact a:focus {
+  background-color: lightgray;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 footer p {
@@ -810,6 +831,18 @@ div .icon-container i {
 }
 .all-projects-container .project-container .text-container .project-button {
   margin-right: 5px;
+}
+.all-projects-container .project-container .text-container .project-button:visited {
+  color: #14070E;
+}
+.all-projects-container .project-container .text-container .project-button:link {
+  color: #14070E;
+}
+.all-projects-container .project-container .text-container .project-button:hover, .all-projects-container .project-container .text-container .project-button:focus {
+  background-color: #309975;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  color: #14070E;
 }
 .all-projects-container .project-container .text-container h3 {
   margin-bottom: 5px;

@@ -1,7 +1,5 @@
 @use "variables" as*;
-// html {
-//    scroll-behavior: smooth;
-// }
+
 
 body {
    background-color: $clr-white-off;
@@ -49,20 +47,6 @@ button, .header-container a, .project-button, .email-a {
    border: none;
 }
 
-// nav a {
-//    &:focus {
-//       background-color: $clr-white-off;
-//       transition: background-color 0.3s;
-//    } 
-//    // &:hover {
-//    //    background-color: $clr-white-off;
-//    //    transition: background-color 0.3s ease-out;
-//    // } 
-//    &:hover {
-//       border-top: solid 20px white;
-      
-//    }
-// }
 
 .project-button {
    @media (max-width: 1000px) {
