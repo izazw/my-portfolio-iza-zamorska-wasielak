@@ -406,10 +406,6 @@ footer p {
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #f6f6f6;
   margin: 0 auto;
@@ -524,8 +520,8 @@ nav ul {
     position: fixed;
     z-index: 3;
     top: -100vh;
-    -webkit-transition: top 1.5s;
-    transition: top 1.5s;
+    -webkit-transition: top 1s;
+    transition: top 1s;
     background-color: #38475a;
   }
 }
