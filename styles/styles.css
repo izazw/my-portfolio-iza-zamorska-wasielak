@@ -785,8 +785,8 @@ div .icon-container i {
   }
 }
 .all-projects-container .project-container .photo-container {
-  width: 100%;
-  height: auto;
+  height: 40%;
+  overflow: hidden;
   position: relative;
 }
 .all-projects-container .project-container .photo-container img {
