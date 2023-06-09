@@ -898,6 +898,27 @@ div .icon-container i {
           justify-content: space-between;
 }
 
+.contact-form {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-form input {
+  width: 50%;
+}
+.contact-form textarea {
+  width: 100%;
+}
+.contact-form button {
+  width: 100%;
+}
+
 footer {
   background-color: #38475a;
   margin: 0;
