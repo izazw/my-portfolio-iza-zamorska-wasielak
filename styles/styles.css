@@ -283,7 +283,7 @@ h3 {
 h4 {
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #309975;
+  color: #6154F2;
 }
 @media (max-width: 900px) {
   h4 {
@@ -321,7 +321,7 @@ a:hover, a:focus, button:hover, button:focus {
   color: #14070E;
 }
 .header-container a:hover, .header-container a:focus {
-  background-color: #309975;
+  background-color: #6154F2;
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
@@ -492,10 +492,7 @@ p {
 }
 
 header {
-  background-color: #38475a;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 28, 103, 0.9)), to(rgba(13, 13, 119, 0.634))), url(../assets/background.jpg);
-  background-image: linear-gradient(to bottom, rgba(28, 28, 103, 0.9), rgba(13, 13, 119, 0.634)), url(../assets/background.jpg);
-  background-size: cover;
+  background-color: #6154F2;
   height: 100vh;
 }
 
@@ -543,7 +540,7 @@ nav ul {
     top: -100vh;
     -webkit-transition: top 1s;
     transition: top 1s;
-    background-color: #38475a;
+    background-color: #6154F2;
   }
 }
 nav ul li {
@@ -561,7 +558,7 @@ nav button {
 @media (max-width: 600px) {
   nav .mobile-nav {
     top: 0;
-    background: #38475a;
+    background: #6154F2;
     -webkit-transition: top 1s;
     transition: top 1s;
     width: 100%;
@@ -618,7 +615,7 @@ nav button {
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #eaeaf9;
 }
 
 .about-me {
@@ -669,7 +666,7 @@ img.portrait {
 }
 
 .skills {
-  background-color: #309975;
+  background-color: #6154F2;
   padding: 80px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -839,7 +836,7 @@ div .icon-container i {
   color: #14070E;
 }
 .all-projects-container .project-container .text-container .project-button:hover, .all-projects-container .project-container .text-container .project-button:focus {
-  background-color: #309975;
+  background-color: #6154F2;
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
   color: #14070E;
@@ -852,7 +849,7 @@ div .icon-container i {
 }
 
 .contact {
-  background-color: #309975;
+  background-color: #6154F2;
 }
 .contact .contact-container {
   display: -webkit-box;
@@ -920,7 +917,7 @@ div .icon-container i {
 }
 
 footer {
-  background-color: #38475a;
+  background-color: #6154F2;
   margin: 0;
   text-align: center;
 }
